@@ -65,4 +65,4 @@ app.get('/', (req, res) => {
   res.send('this is plant shop api!')
 })
 
-app.listen(port)
+app.listen(process.env.PORT || port)
