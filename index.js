@@ -62,7 +62,7 @@ app.delete('deleteProduct/:id', (req, res) =>{
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('this is plant shop api!')
 })
 
 app.listen(port)
